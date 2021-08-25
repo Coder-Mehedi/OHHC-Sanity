@@ -9,6 +9,7 @@ import blockContent from './blockContent';
 import aboutUs from './about-us';
 import sponsors from './sponsors';
 import sponsor from './sponsor';
+import contact from './contact';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -25,5 +26,6 @@ export default createSchema({
     blockContent,
     sponsors,
     sponsor,
+    contact,
   ]),
 });
