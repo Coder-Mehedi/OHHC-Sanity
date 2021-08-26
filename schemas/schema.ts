@@ -11,6 +11,8 @@ import sponsors from './sponsors';
 import sponsor from './sponsor';
 import contact from './contact';
 import news from './news';
+import banner from './banner';
+import home from './home';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -29,5 +31,7 @@ export default createSchema({
     sponsor,
     contact,
     news,
+    banner,
+    home,
   ]),
 });

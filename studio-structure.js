@@ -1,7 +1,7 @@
 import S from '@sanity/desk-tool/structure-builder';
 
 const hiddenDocTypes = (listItem) =>
-  !['about-us', 'sponsors'].includes(listItem.getId());
+  !['about-us', 'sponsors', 'home'].includes(listItem.getId());
 
 export default () =>
   S.list()
@@ -23,6 +23,9 @@ export default () =>
             .schemaType('sponsors')
             .documentId('sponsors')
         ),
+      S.listItem()
+        .title('Home')
+        .child(S.editor().id('home').schemaType('home').documentId('home')),
 
       ...S.documentTypeListItems().filter(hiddenDocTypes),
     ]);

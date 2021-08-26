@@ -2,7 +2,7 @@ export default {
   name: 'sponsors',
   title: 'Our Sponsor’s',
   type: 'document',
-  __experimental_actions: ['create', 'update', /*'delete',*/ 'publish'],
+  __experimental_actions: [/*'create',*/ 'update', /*'delete',*/ 'publish'],
   fields: [
     {
       name: 'title',
