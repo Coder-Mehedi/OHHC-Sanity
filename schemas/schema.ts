@@ -10,6 +10,7 @@ import aboutUs from './about-us';
 import sponsors from './sponsors';
 import sponsor from './sponsor';
 import contact from './contact';
+import news from './news';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -27,5 +28,6 @@ export default createSchema({
     sponsors,
     sponsor,
     contact,
+    news,
   ]),
 });
