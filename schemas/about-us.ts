@@ -2,7 +2,7 @@ export default {
   name: 'about-us',
   title: 'About Us',
   type: 'document',
-  __experimental_actions: [/*'create',*/ 'update', /*'delete',*/ 'publish'],
+  __experimental_actions: ['create', 'update', 'delete', 'publish'],
   fields: [
     {
       name: 'title',
